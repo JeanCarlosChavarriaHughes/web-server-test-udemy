@@ -1,0 +1,33 @@
+para crear el servidor web, esto es lo que van a preguntar.
+
+name: (web-server)
+version: (1.0.0)
+description:
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author:
+license: (ISC)
+
+
+
+en la carpeta, se debe ejecutar el commando 
+
+`npm init`
+
+luego se debe instalar el modulo express. Buscar la version mas actualizada.
+`npm install express@4.13.2 --save` 
+
+create folder 
+public
+
+create index.html
+
+
+===============
+Heroku
+
+$ heroku create
+Creating app... done, ⬢ mysterious-chamber-46681
+https://mysterious-chamber-46681.herokuapp.com/ | https://git.he roku.com/mysterious-chamber-46681.git
